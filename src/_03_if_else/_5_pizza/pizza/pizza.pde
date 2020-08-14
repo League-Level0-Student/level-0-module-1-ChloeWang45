@@ -29,7 +29,13 @@ void draw() {
     else if(mouseButton == RIGHT){
       olive.resize(15, 15);
       image(olive, 230, 230);
+      image(olive, 300, 280);
+      image(olive, 180, 330);
+      image(olive, 210, 150);
       mushroom.resize(20, 20);
       image(mushroom, 175, 150);
+      image(mushroom, 333, 222);
+      image(mushroom, 250, 130);
+      image(mushroom, 222, 333);
     }
 }
